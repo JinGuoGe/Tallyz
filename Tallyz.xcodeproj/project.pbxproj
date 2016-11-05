@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A19EBF00B34042A46FDCB08 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE60DDDAE83C78B33ADE2DF0 /* Pods.framework */; };
+		7728D8DB1D4CFFD4006C7434 /* BarsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7728D8DA1D4CFFD4006C7434 /* BarsTableViewCell.xib */; };
+		7728D8DD1D50819A006C7434 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728D8DC1D50819A006C7434 /* Firebase.framework */; };
+		7728D8DF1D509017006C7434 /* VenueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728D8DE1D509017006C7434 /* VenueItem.swift */; };
+		7728D8E11D50944E006C7434 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728D8E01D50944E006C7434 /* libicucore.tbd */; };
+		7728D8E31D509461006C7434 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728D8E21D509461006C7434 /* libc++.tbd */; };
+		7728D8E51D509470006C7434 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728D8E41D509470006C7434 /* CFNetwork.framework */; };
+		7728D8E71D509480006C7434 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728D8E61D509480006C7434 /* Security.framework */; };
+		7728D8E91D509496006C7434 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7728D8E81D509496006C7434 /* SystemConfiguration.framework */; };
+		7728D8EB1D50FF58006C7434 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728D8EA1D50FF58006C7434 /* SettingViewController.swift */; };
+		77C22EE11D3FBCEB00A0C065 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C22EE01D3FBCEB00A0C065 /* MapKit.framework */; };
+		77F441DE1D45A51D00DE8BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441D41D45A51D00DE8BA7 /* AppDelegate.swift */; };
+		77F441DF1D45A51D00DE8BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F441D51D45A51D00DE8BA7 /* Assets.xcassets */; };
+		77F441E01D45A51D00DE8BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F441D61D45A51D00DE8BA7 /* LaunchScreen.storyboard */; };
+		77F441E11D45A51D00DE8BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F441D81D45A51D00DE8BA7 /* Main.storyboard */; };
+		77F441E21D45A51D00DE8BA7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77F441DA1D45A51D00DE8BA7 /* Info.plist */; };
+		77F441E31D45A51D00DE8BA7 /* Tallyz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77F441DB1D45A51D00DE8BA7 /* Tallyz.xcdatamodeld */; };
+		77F441E41D45A51D00DE8BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441DD1D45A51D00DE8BA7 /* ViewController.swift */; };
+		77F441EE1D45AD7800DE8BA7 /* BarAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441EC1D45AD7800DE8BA7 /* BarAnnotation.swift */; };
+		77F441EF1D45AD7800DE8BA7 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441ED1D45AD7800DE8BA7 /* Venue.swift */; };
+		77F441F11D45AD8200DE8BA7 /* BarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441F01D45AD8200DE8BA7 /* BarAPI.swift */; };
+		77F441F31D45F43800DE8BA7 /* BarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441F21D45F43800DE8BA7 /* BarsTableViewCell.swift */; };
+		77F441F61D460BFC00DE8BA7 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441F51D460BFC00DE8BA7 /* ImageHelper.swift */; };
+		77F441F81D470D4F00DE8BA7 /* ThemeCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441F71D470D4F00DE8BA7 /* ThemeCustomViewController.swift */; };
+		77F441FA1D47AA0200DE8BA7 /* BarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441F91D47AA0200DE8BA7 /* BarDetailViewController.swift */; };
+		77F441FC1D47CFB200DE8BA7 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F441FB1D47CFB200DE8BA7 /* PageContentViewController.swift */; };
+		77F442051D4919DF00DE8BA7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77F442021D4919DF00DE8BA7 /* SVProgressHUD.bundle */; };
+		77F4420A1D491A2700DE8BA7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F442091D491A2700DE8BA7 /* SVProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7728D8DA1D4CFFD4006C7434 /* BarsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarsTableViewCell.xib; sourceTree = "<group>"; };
+		7728D8DC1D50819A006C7434 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		7728D8DE1D509017006C7434 /* VenueItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueItem.swift; sourceTree = "<group>"; };
+		7728D8E01D50944E006C7434 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		7728D8E21D509461006C7434 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7728D8E41D509470006C7434 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7728D8E61D509480006C7434 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7728D8E81D509496006C7434 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7728D8EA1D50FF58006C7434 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		77C22EC71D3FB82B00A0C065 /* Tallyz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tallyz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C22EE01D3FBCEB00A0C065 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		77F441D41D45A51D00DE8BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F441D51D45A51D00DE8BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F441D71D45A51D00DE8BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F441D91D45A51D00DE8BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77F441DA1D45A51D00DE8BA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F441DC1D45A51D00DE8BA7 /* Tallyz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tallyz.xcdatamodel; sourceTree = "<group>"; };
+		77F441DD1D45A51D00DE8BA7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77F441EC1D45AD7800DE8BA7 /* BarAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarAnnotation.swift; sourceTree = "<group>"; };
+		77F441ED1D45AD7800DE8BA7 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		77F441F01D45AD8200DE8BA7 /* BarAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarAPI.swift; sourceTree = "<group>"; };
+		77F441F21D45F43800DE8BA7 /* BarsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsTableViewCell.swift; sourceTree = "<group>"; };
+		77F441F51D460BFC00DE8BA7 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		77F441F71D470D4F00DE8BA7 /* ThemeCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeCustomViewController.swift; sourceTree = "<group>"; };
+		77F441F91D47AA0200DE8BA7 /* BarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDetailViewController.swift; sourceTree = "<group>"; };
+		77F441FB1D47CFB200DE8BA7 /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		77F442011D4919DF00DE8BA7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		77F442021D4919DF00DE8BA7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		77F442071D491A2600DE8BA7 /* Tallyz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Tallyz-Bridging-Header.h"; path = "ThirdParty/SVProgressHUD/Tallyz-Bridging-Header.h"; sourceTree = "<group>"; };
+		77F442081D491A2700DE8BA7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		77F442091D491A2700DE8BA7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		DE60DDDAE83C78B33ADE2DF0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D35E0033AB0B208740D64 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB7C6360C5B0E64F536B3AF5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C22EC41D3FB82B00A0C065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7728D8E91D509496006C7434 /* SystemConfiguration.framework in Frameworks */,
+				7728D8E71D509480006C7434 /* Security.framework in Frameworks */,
+				7728D8E51D509470006C7434 /* CFNetwork.framework in Frameworks */,
+				7728D8E31D509461006C7434 /* libc++.tbd in Frameworks */,
+				7728D8E11D50944E006C7434 /* libicucore.tbd in Frameworks */,
+				77C22EE11D3FBCEB00A0C065 /* MapKit.framework in Frameworks */,
+				7728D8DD1D50819A006C7434 /* Firebase.framework in Frameworks */,
+				1A19EBF00B34042A46FDCB08 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C22EBE1D3FB82B00A0C065 = {
+			isa = PBXGroup;
+			children = (
+				77F441D31D45A51D00DE8BA7 /* Tallyz */,
+				77C22EDF1D3FBCC800A0C065 /* Frameworks */,
+				77C22EC81D3FB82B00A0C065 /* Products */,
+				82DEB9A0833C8FF515E992D0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		77C22EC81D3FB82B00A0C065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C22EC71D3FB82B00A0C065 /* Tallyz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C22EDF1D3FBCC800A0C065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7728D8E81D509496006C7434 /* SystemConfiguration.framework */,
+				7728D8E61D509480006C7434 /* Security.framework */,
+				7728D8E41D509470006C7434 /* CFNetwork.framework */,
+				7728D8E21D509461006C7434 /* libc++.tbd */,
+				7728D8E01D50944E006C7434 /* libicucore.tbd */,
+				7728D8DC1D50819A006C7434 /* Firebase.framework */,
+				77C22EE01D3FBCEB00A0C065 /* MapKit.framework */,
+				DE60DDDAE83C78B33ADE2DF0 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77F441D31D45A51D00DE8BA7 /* Tallyz */ = {
+			isa = PBXGroup;
+			children = (
+				77F441FF1D4919DF00DE8BA7 /* ThirdParty */,
+				77F441D41D45A51D00DE8BA7 /* AppDelegate.swift */,
+				7728D8EA1D50FF58006C7434 /* SettingViewController.swift */,
+				77F441DD1D45A51D00DE8BA7 /* ViewController.swift */,
+				77F441F71D470D4F00DE8BA7 /* ThemeCustomViewController.swift */,
+				77F441F01D45AD8200DE8BA7 /* BarAPI.swift */,
+				77F441F91D47AA0200DE8BA7 /* BarDetailViewController.swift */,
+				77F441FB1D47CFB200DE8BA7 /* PageContentViewController.swift */,
+				77F441F51D460BFC00DE8BA7 /* ImageHelper.swift */,
+				77F441EB1D45AD7800DE8BA7 /* Model */,
+				77F441DA1D45A51D00DE8BA7 /* Info.plist */,
+				77F442071D491A2600DE8BA7 /* Tallyz-Bridging-Header.h */,
+				77F441DB1D45A51D00DE8BA7 /* Tallyz.xcdatamodeld */,
+				77F441D61D45A51D00DE8BA7 /* LaunchScreen.storyboard */,
+				77F441D81D45A51D00DE8BA7 /* Main.storyboard */,
+				77F441D51D45A51D00DE8BA7 /* Assets.xcassets */,
+			);
+			path = Tallyz;
+			sourceTree = "<group>";
+		};
+		77F441EB1D45AD7800DE8BA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77F441EC1D45AD7800DE8BA7 /* BarAnnotation.swift */,
+				77F441ED1D45AD7800DE8BA7 /* Venue.swift */,
+				7728D8DE1D509017006C7434 /* VenueItem.swift */,
+				77F441F21D45F43800DE8BA7 /* BarsTableViewCell.swift */,
+				7728D8DA1D4CFFD4006C7434 /* BarsTableViewCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77F441FF1D4919DF00DE8BA7 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				77F442001D4919DF00DE8BA7 /* SVProgressHUD */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		77F442001D4919DF00DE8BA7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				77F442081D491A2700DE8BA7 /* SVProgressHUD.h */,
+				77F442091D491A2700DE8BA7 /* SVProgressHUD.m */,
+				77F442011D4919DF00DE8BA7 /* SVProgressHUD-Prefix.pch */,
+				77F442021D4919DF00DE8BA7 /* SVProgressHUD.bundle */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		82DEB9A0833C8FF515E992D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D35E0033AB0B208740D64 /* Pods.debug.xcconfig */,
+				FB7C6360C5B0E64F536B3AF5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C22EC61D3FB82B00A0C065 /* Tallyz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C22EDC1D3FB82B00A0C065 /* Build configuration list for PBXNativeTarget "Tallyz" */;
+			buildPhases = (
+				C209BC495687C737E117883F /* Check Pods Manifest.lock */,
+				77C22EC31D3FB82B00A0C065 /* Sources */,
+				77C22EC51D3FB82B00A0C065 /* Resources */,
+				77C22EC41D3FB82B00A0C065 /* Frameworks */,
+				AA0DFE55DE66A94CF4A61536 /* Embed Pods Frameworks */,
+				D2BBA851AEC96F84DC3E0A75 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tallyz;
+			productName = Talli;
+			productReference = 77C22EC71D3FB82B00A0C065 /* Tallyz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C22EBF1D3FB82B00A0C065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bigcity;
+				TargetAttributes = {
+					77C22EC61D3FB82B00A0C065 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TGC228QJXU;
+					};
+				};
+			};
+			buildConfigurationList = 77C22EC21D3FB82B00A0C065 /* Build configuration list for PBXProject "Tallyz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C22EBE1D3FB82B00A0C065;
+			productRefGroup = 77C22EC81D3FB82B00A0C065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C22EC61D3FB82B00A0C065 /* Tallyz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C22EC51D3FB82B00A0C065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F442051D4919DF00DE8BA7 /* SVProgressHUD.bundle in Resources */,
+				7728D8DB1D4CFFD4006C7434 /* BarsTableViewCell.xib in Resources */,
+				77F441E21D45A51D00DE8BA7 /* Info.plist in Resources */,
+				77F441E11D45A51D00DE8BA7 /* Main.storyboard in Resources */,
+				77F441DF1D45A51D00DE8BA7 /* Assets.xcassets in Resources */,
+				77F441E01D45A51D00DE8BA7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA0DFE55DE66A94CF4A61536 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C209BC495687C737E117883F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2BBA851AEC96F84DC3E0A75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C22EC31D3FB82B00A0C065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F441E41D45A51D00DE8BA7 /* ViewController.swift in Sources */,
+				77F441FA1D47AA0200DE8BA7 /* BarDetailViewController.swift in Sources */,
+				7728D8DF1D509017006C7434 /* VenueItem.swift in Sources */,
+				77F441EF1D45AD7800DE8BA7 /* Venue.swift in Sources */,
+				77F441F11D45AD8200DE8BA7 /* BarAPI.swift in Sources */,
+				7728D8EB1D50FF58006C7434 /* SettingViewController.swift in Sources */,
+				77F441F31D45F43800DE8BA7 /* BarsTableViewCell.swift in Sources */,
+				77F4420A1D491A2700DE8BA7 /* SVProgressHUD.m in Sources */,
+				77F441FC1D47CFB200DE8BA7 /* PageContentViewController.swift in Sources */,
+				77F441DE1D45A51D00DE8BA7 /* AppDelegate.swift in Sources */,
+				77F441EE1D45AD7800DE8BA7 /* BarAnnotation.swift in Sources */,
+				77F441E31D45A51D00DE8BA7 /* Tallyz.xcdatamodeld in Sources */,
+				77F441F81D470D4F00DE8BA7 /* ThemeCustomViewController.swift in Sources */,
+				77F441F61D460BFC00DE8BA7 /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77F441D61D45A51D00DE8BA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F441D71D45A51D00DE8BA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77F441D81D45A51D00DE8BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F441D91D45A51D00DE8BA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C22EDA1D3FB82B00A0C065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77C22EDB1D3FB82B00A0C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C22EDD1D3FB82B00A0C065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4D35E0033AB0B208740D64 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Tallyz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barth.Tallyz;
+				PRODUCT_NAME = Tallyz;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tallyz/ThirdParty/SVProgressHUD/Tallyz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77C22EDE1D3FB82B00A0C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7C6360C5B0E64F536B3AF5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Tallyz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barth.Tallyz;
+				PRODUCT_NAME = Tallyz;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tallyz/ThirdParty/SVProgressHUD/Tallyz-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C22EC21D3FB82B00A0C065 /* Build configuration list for PBXProject "Tallyz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C22EDA1D3FB82B00A0C065 /* Debug */,
+				77C22EDB1D3FB82B00A0C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C22EDC1D3FB82B00A0C065 /* Build configuration list for PBXNativeTarget "Tallyz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C22EDD1D3FB82B00A0C065 /* Debug */,
+				77C22EDE1D3FB82B00A0C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77F441DB1D45A51D00DE8BA7 /* Tallyz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77F441DC1D45A51D00DE8BA7 /* Tallyz.xcdatamodel */,
+			);
+			currentVersion = 77F441DC1D45A51D00DE8BA7 /* Tallyz.xcdatamodel */;
+			path = Tallyz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77C22EBF1D3FB82B00A0C065 /* Project object */;
+}
